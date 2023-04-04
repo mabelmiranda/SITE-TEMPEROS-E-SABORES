@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .slides {
     width: 0 auto;
     height: 0 auto;
@@ -6,8 +11,66 @@
     overflow: hidden;
 }
 
-footer {
-    color: #ffff;
-    background-color: #C94B4B;
+hr {
+    width: 95%;
 }
 
+.nome {
+    border-radius: 20px;
+    border-color: #EA7B26;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.email {
+    border-radius: 20px;
+    border-color: #EA7B26;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.caixaTexto {
+    border-radius: 20px;
+    border-color: #EA7B26;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.botao {
+    border-radius: 20px;
+    color: white;
+    background-color: #C94B4B;
+    border-color: #C94B4B;
+    border-style: none;
+}
+
+footer {
+    height: 300px;
+    color: #ffff;
+    background-color: #C94B4B;
+    font-family: 'Inter', sans-serif;
+}
+
+.tituloRodape {
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+.textoRodapeUm {
+    padding-top: 25px;
+    font-weight: normal;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.iconUm {
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.iconDois {
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
