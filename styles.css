@@ -1,18 +1,176 @@
 body {
     margin: 0;
     padding: 0;
-}
-
-.slides {
-    width: 0 auto;
-    height: 0 auto;
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden;
+    background-color: #F2F2F2;
 }
 
 hr {
     width: 95%;
+}
+
+header {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.containerApresentacao {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.data {
+    font-size: 23px;
+    font-weight: bold;
+    color: #EA7B26;
+    font-family: 'Inter', sans-serif;
+}
+
+.texto {
+    font-size: 14px;
+    font-weight: bold;
+    color: #C94B4B;
+    font-family: 'Inter', sans-serif;
+}
+
+.containerNav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Inter', sans-serif;
+}
+
+.barraNav {
+    font-size: x-large;
+    font-weight: bold;
+    color: #EA7B26;
+}
+
+.link:link {
+    color: #C94B4B;
+    font-weight: bold;
+}
+
+.link:visited {
+    color: #C94B4B;
+}
+
+.link:hover {
+    color: #EA7B26;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.containerFestival {
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.secaoUm {
+    font-family: 'Inter', sans-serif;
+}
+
+.secaoDois {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.tituloFestival {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #C94B4B;
+}
+
+.tituloProgramacao {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #C94B4B;
+}
+
+.informUm {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.informDois {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgFestival {
+    width: auto;
+    height: 80%;
+    margin-top: 10px;
+}
+
+.categUm {
+    width: 70%;
+    height: 70%;
+}
+
+.categDois {
+    width: 70%;
+    height: 70%;
+}
+
+.categTres {
+    width: 70%;
+    height: 70%;
+}
+
+.textoUm {
+    font-weight: bold;
+    color: #C94B4B;
+}
+
+.inicioUm {
+    color: #EA7B26;
+}
+
+.inicioDois {
+    color: #EA7B26;
+}
+
+.containerDestaque {
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffff;
+    background-color: #EA7B26;
+}
+
+.tituloContato {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #C94B4B;
 }
 
 .nome {
@@ -30,6 +188,8 @@ hr {
 }
 
 .caixaTexto {
+    width: 100%;
+    height: 200px;
     border-radius: 20px;
     border-color: #EA7B26;
     border-width: 3px;
@@ -37,15 +197,19 @@ hr {
 }
 
 .botao {
-    border-radius: 20px;
-    color: white;
+    width: 130px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #ffff;
     background-color: #C94B4B;
     border-color: #C94B4B;
     border-style: none;
 }
 
 footer {
-    height: 300px;
+    width: auto;
+    height: 260px;
     color: #ffff;
     background-color: #C94B4B;
     font-family: 'Inter', sans-serif;
@@ -54,11 +218,20 @@ footer {
 .tituloRodape {
     padding-top: 20px;
     font-weight: normal;
+    font-size: 20px;
 }
 
 .textoRodapeUm {
-    padding-top: 25px;
-    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 0;
+    font-size: 15px;
+}
+
+.textoRodapeDois {
+    padding-bottom: 20px;
+    line-height: 0;
+    font-size: 15px;
 }
 
 .rodape {
@@ -66,11 +239,257 @@ footer {
 }
 
 .iconUm {
-    padding-bottom: 20px;
-    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-right: 20px;
 }
 
 .iconDois {
-    padding-bottom: 20px;
-    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
+
+@media only screen and (min-width: 480px) {
+    .menuNav {
+        font-size: 18px;
+    }
+
+    .imgFestival {
+        width: auto;
+        height: auto;
+    }
+
+    .categUm {
+        width: auto;
+        height: 300px;
+    }
+
+    .categDois {
+        width: auto;
+        height: 300px;
+    }
+
+    .categTres {
+        width: auto;
+        height: 300px;
+    }
+
+    .tituloFestival {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: #C94B4B;
+    }
+
+    .caixaTexto {
+        width: 100%;
+    }
+}
+
+    @media only screen and (min-width: 768px) {
+        header {
+            display: flex;
+            justify-content: center;
+        }
+
+        .containerApresentacao {
+            margin-right: 70px;
+        }
+
+        .containerNav {
+            margin-top: auto;
+        }
+
+        .menuNav {
+            font-size: 18px;
+        }
+
+        .containerLogo {
+            margin-left: 20px;
+        }
+
+        .imgFestival {
+            width: auto;
+            height: auto;
+        }
+
+        .informDois {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .categUm {
+            width: 200px;
+            height: 200px;
+        }
+
+        .textoMenus {
+            top: 170%;
+            right: 70%;
+            left: 5%;
+            position: absolute;
+        }
+
+        .categDois {
+            width: 200px;
+            height: 200px;
+        }
+
+        .textoApresentacoes {
+            top: 170%;
+            right: 35%;
+            left: 35%;
+            position: absolute;
+        }
+
+        .categTres {
+            width: 200px;
+            height: 200px;
+        }
+
+        .textoWorkshops {
+            top: 170%;
+            right: 1%;
+            left: 70%;
+            position: absolute;
+        }
+
+        .containerApresentacao {
+            margin-top: 30px;
+        }
+
+        .data {
+            font-size: 25px;
+            margin-top: 20px;
+            margin-bottom: 3px;
+        }
+
+        .caixaTexto {
+            width: 50%;
+        }
+
+        .botao {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) {
+        header {
+            display: flex;
+            justify-content: center;
+        }
+
+        .informDois {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .categUm {
+            width: 280px;
+            height: 280px;
+        }
+
+        .textoMenus {
+            top: 195%;
+            right: 70%;
+            left: 5%;
+            position: absolute;
+        }
+
+        .categDois {
+            width: 280px;
+            height: 280px;
+        }
+
+        .textoApresentacoes {
+            top: 195%;
+            right: 35%;
+            left: 35%;
+            position: absolute;
+        }
+
+        .categTres {
+            width: 280px;
+            height: 280px;
+        }
+
+        .textoWorkshops {
+            top: 195%;
+            right: 1%;
+            left: 70%;
+            position: absolute;
+        }
+
+    @media only screen and (min-width: 1200px) {
+        header {
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo {
+            width: 80%;
+            height: 95%;
+            margin-left: 50%;
+        }
+        
+        .containerApresentacao {
+            width: 100%;
+            height: 100%;
+            font-size: x-large;
+            margin-right: 15%;
+            margin-bottom: 3%;
+            text-align: center;
+        }
+
+        .informDois {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .categUm {
+            width: 280px;
+            height: 280px;
+        }
+
+        .textoMenus {
+            top: 210%;
+            right: 77%;
+            left: 4%;
+            position: absolute;
+        }
+
+        .categDois {
+            width: 280px;
+            height: 280px;
+        }
+
+        .textoApresentacoes {
+            top: 210%;
+            right: 40%;
+            left: 35%;
+            position: absolute;
+        }
+
+        .categTres {
+            width: 280px;
+            height: 280px;
+        }
+
+        .textoWorkshops {
+            top: 210%;
+            right: 3%;
+            left: 65%;
+            position: absolute;
+        }
+    }

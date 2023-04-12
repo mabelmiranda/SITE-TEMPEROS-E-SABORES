@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Festival Gastronômico Temperos & Sabores</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1'>
     <meta name="keywords" content="comida, bebida, festival, evento, gastronomia">
     <meta name="description" content="site sobre comidas e bebidas, festival gastronômico, evento gastronômico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <script src='main.js'></script>
+    <script src='scripts.js'></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,12 +23,12 @@
         <div class="containerLogo">
             <a href="index.html">
                 <img class="logo" src="imagens/logotipo.png" alt="logotipo do site" />
-            </a>
+            </a><br>
         </div>
 
-        <div class="container">
-            <p>04 a 06 DE MAIO</p>
-            <span>VENHA EXPERIMENTAR O MELHOR DA<p>GASTRONOMIA COMTEMPORÂNEA!</p></span>
+        <div class="containerApresentacao">
+            <p class="data">04 A 06 DE MAIO</p>
+            <span class="texto">VENHA EXPERIMENTAR O MELHOR DA<p>GASTRONOMIA COMTEMPORÂNEA!</p></span>
         </div>
 
     </header>
@@ -35,90 +36,94 @@
     <main class="containerCorpo">
 
         <nav class="containerNav">
-            <span class="menuNav"><b><a href="ofestival.html">O Festival</a></b></span>
-            <span class="menuNav"><b><a href="menus.html">Menus</a></b></span>
-            <span class="menuNav"><b><a href="atracoes.html">Atrações</a></b></span>
-            <span class="menuNav"><b><a href="duvidas.html">Dúvidas</a></b></span>
-            <span class="menuNav"><b><a href="contato.html">Contato</a></b></span>
+            <span class="menuNav"><b><a class="link" href="ofestival.html">O Festival</a></b></span><span
+                class="barraNav">|</span>
+            <span class="menuNav"><b><a class="link" href="menus.html">Menus</a></b></span><span
+                class="barraNav">|</span>
+            <span class="menuNav"><b><a class="link" href="atracoes.html">Atrações</a></b></span><span
+                class="barraNav">|</span>
+            <span class="menuNav"><b><a class="link" href="duvidas.html">Dúvidas</a></b></span><span
+                class="barraNav">|</span>
+            <span class="menuNav"><b><a class="link" href="contato.html">Contato</a></b></span>
         </nav>
 
-        <div class="carrossel">
-            <div class="slides">
-                <!--Slide Imagens-->
-                <div class="slideUm">
-                    <img src="imagens/banner1.png" alt="primeiro banner rotativo - gastronomia" />
-                </div>
-
-                <div class="slideDois">
-                    <img src="imagens/banner2.png" alt="segundo banner rotativo - música" />
-                </div>
-
-                <div class="slideTres">
-                    <img src="imagens/banner3.png" alt="terceiro banner rotativo - workshops" />
-                </div>
-                <!--Final Slide Imagens-->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="imagens/banner1.png" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/banner2.png" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="imagens/banner3.png" alt="Terceiro Slide">
+              </div>
             </div>
-
-        </div><br>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
 
         <section class="secaoUm">
 
-            <div>
-                <img class="imgFestival" src="imagens/imgFestival.png" alt="prato de comida festival" />
+            <div class="containerFestival">
+                <img class="imgFestival" src="imagens/imgFestival.png" alt="prato de comida do festival" />
             </div>
 
             <div>
-                <h1 class="titulo">O Festival</h1>
+                <h1 class="tituloFestival">O Festival</h1>
             </div>
 
-            <div class="textoDescritivo">
+            <div class="informUm">
+
                 <p>Com o intuito de enaltecer a gastronomia comtemporânea do Brasil, surgiu o festival Temperos &
                     Sabores.
                 </p>
                 <p>Serão 3 dias com muita comida, música e aprendizado.</p>
-            </div>
 
-            <div class="textoInformUm">
                 <p class="textoUm"><b>Data:</b> 04 a 06 de maio</p>
-                <p class="textoDois"><b class="inicio1">Local:</b> Centreventos Oliveira - Av. Maria José, n°123</p>
-                <p class="textoTres"><b class="inicio2">Horário:</b> 10h às 23h</p>
+                <p class="textoDois"><b class="inicioUm">Local:</b> Centreventos Oliveira - Av. Maria José, n°123</p>
+                <p class="textoTres"><b class="inicioDois">Horário:</b> 10h às 23h</p>
+            </div>
+
+            <div class="containerDestaque">
+                <span class="textoDestaque">ENTRADA GRATUITA</span>
             </div>
 
             <div>
-                <span class="destaqueUm">ENTRADA GRATUITA</span>
-            </div>
-
-            <div>
-                <h1 class="titulo">Programação</h1>
+                <h1 class="tituloProgramacao">Programação</h1>
                 <hr>
             </div>
 
-            <div class="textoInformDois">
-                <img class="categUm" src="imagens/bannerCategoria1.png" alt="primeiro banner categoria" />
-                <p>Menus desenvolvidos por chefes renomados.</p><br>
+            <div class="informDois">
+                <img class="categUm" src="imagens/bannerCategoria1.png" alt="primeiro banner categoria" /><br>
+                <p class="textoMenus">Menus desenvolvidos por chefes renomados.</p><br>
 
-                <img class="categDois" src="imagens/bannerCategoria2.png" alt="segundo banner categoria" />
-                <p>Apresentações com o melhor da música brasileira.</p><br>
+                <img class="categDois" src="imagens/bannerCategoria2.png" alt="segundo banner categoria" /><br>
+                <p class="textoApresentacoes">Apresentações com o melhor da música brasileira.</p><br>
 
-                <img class="categTres" src="imagens/bannerCategoria3.png" alt="segundo banner categoria" />
-                <p>Workshops sobre gastronomia e técnicas da cozinha contemporânea</p>
-                <hr>
+                <img class="categTres" src="imagens/bannerCategoria3.png" alt="segundo banner categoria" /><br>
+                <p class="textoWorkshops">Workshops sobre gastronomia e técnicas da cozinha contemporânea.</p>
             </div>
+            <hr>
 
         </section>
 
         <section class="secaoDois">
 
-            <div>
+            <div class="containerContato">
                 <p>Fale com a gente!</p>
                 <p>Ficou com alguma dúvida? Fique a vontade para entrar em contato conosco.</p>
                 <p>(47)- 9999.9999</p>
-            </div>
 
-            <div class="containerContato">
                 <form class="caixaContato">
                     <legend>
-                        <h2 class="tituloContato">Entre em Contato</h2>
+                        <h2 class="tituloContato">Entre em contato</h2>
                     </legend>
                     <label class="caixaNome" for="nome">Nome:</label>
                     <input class="nome" name="nome" type="text">
@@ -142,11 +147,14 @@
             <img class="iconUm" src="imagens/facebookIcon.png" alt="ícone do facebook" />
             <img class="iconDois" src="imagens/instagramIcon.png" alt="ícone do instagram" />
             <hr>
-            <p class="textoRodapeUm">Desenvoldido por Mabel Miranda e Rogério Santos</p>
+            <p class="textoRodapeUm">Desenvolvido por Mabel Miranda e Rogério Santos</p>
             <p class="textoRodapeDois">2023</p>
         </div>
 
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 
