@@ -36,7 +36,7 @@ header {
 }
 
 .texto {
-  line-height: 2%;
+  line-height: 1%;
   font-size: 14px;
   font-weight: bold;
   color: #C94B4B;
@@ -44,7 +44,7 @@ header {
 }
 
 .containerNav {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: bold;
@@ -225,7 +225,7 @@ footer {
 
 .tituloRodape {
   padding-top: 20px;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 20px;
 }
 
@@ -319,7 +319,7 @@ footer {
   }
 
   .containerNav {
-    margin-top: -4%;
+    margin-top: -2%;
   }
 
   .menuNav {
@@ -377,12 +377,6 @@ footer {
     position: relative;
   }
 
-  .data {
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 3px;
-  }
-
   .caixaContato {
     margin-right: 200px;
   }
@@ -399,7 +393,7 @@ footer {
   }
 }
 
-@media only screen (min-width: 1000px) and (min-width: 1024px) {
+@media only screen and (min-width: 1000px) and (min-width: 1024px) {
   .containerLogo {
     margin-left: 10%;
     position: relative;
@@ -424,7 +418,7 @@ footer {
   }
 
   .containerNav {
-    margin-top: -130px;
+    margin-top: -140px;
   }
 
   .categUm {

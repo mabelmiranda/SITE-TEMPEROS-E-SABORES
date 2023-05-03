@@ -26,7 +26,6 @@ header {
   margin-top: -6%;
   margin-bottom: 10%;
   text-align: center;
-  font-weight: bold;
 }
 
 .data {
@@ -37,7 +36,7 @@ header {
 }
 
 .texto {
-  line-height: 2%;
+  line-height: 1%;
   font-size: 14px;
   font-weight: bold;
   color: #C94B4B;
@@ -45,7 +44,7 @@ header {
 }
 
 .containerNav {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: bold;
@@ -85,13 +84,6 @@ header {
   font-family: 'Inter', sans-serif;
 }
 
-.tituloContato {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 25px;
-  color: #C94B4B;
-}
-
 .nome {
   border-radius: 20px;
   border-color: #EA7B26;
@@ -107,7 +99,7 @@ header {
 }
 
 .caixaTexto {
-  width: 97%;
+  width: 100%;
   height: 200px;
   border-radius: 20px;
   border-color: #EA7B26;
@@ -136,7 +128,7 @@ footer {
 
 .tituloRodape {
   padding-top: 20px;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 20px;
 }
 
@@ -167,18 +159,78 @@ footer {
   padding-left: 20px;
 }
 
-.textoWorkshops {
-  margin-top: 5px;
-}
-
 @media only screen and (min-width: 480px) {
+  .menuNav {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    height: 85%;
+  }
+
+  .containerLogo {
+    margin-left: 4%;
+    position: relative;
+  }
+
+  .containerApresentacao {
+    margin-top: 4%;
+    margin-right: 9%;
+    position: relative;
+  }
+
+  .containerNav {
+    margin-top: -2%;
+  }
+
+  .menuNav {
+    font-size: 18px;
+  }
+
+  .botao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1000px) and (min-width: 1024px) {
+  .containerLogo {
+    margin-left: 10%;
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
+  .logo {
+    height: 98%;
+  }
+
+  .containerLogo {
+    margin-bottom: 10%;
+    margin-left: 25%;
+    position: relative;
+  }
+
+  .containerApresentacao {
+    margin-right: 20%;
+    margin-top: 1.5%;
+    position: relative;
+  }
+
+  .containerNav {
+    margin-top: -140px;
+  }
+
+  .caixaTexto {
+    width: 60%;
+}
 }

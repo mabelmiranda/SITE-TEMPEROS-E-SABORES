@@ -215,7 +215,7 @@ footer {
 
 .tituloRodape {
     padding-top: 20px;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
 }
 
@@ -385,7 +385,7 @@ footer {
     }
 }
 
-@media only screen (min-width: 1000px) and (min-width: 1024px) {
+@media only screen and (min-width: 1000px) and (min-width: 1024px) {
     .containerLogo {
         margin-left: 10%;
         position: relative;
@@ -403,6 +403,10 @@ footer {
         margin-top: 1%;
         position: relative;
     }
+
+    .containerNav {
+        margin-top: 50px;
+      }
 
     .categUm {
         width: 300px;
