@@ -203,7 +203,7 @@ footer {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-}
+  }
 }
 
 @media only screen and (min-width: 1000px) and (min-width: 1024px) {
@@ -236,5 +236,5 @@ footer {
 
   .caixaTexto {
     width: 60%;
-}
+  }
 }

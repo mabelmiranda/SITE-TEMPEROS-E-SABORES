@@ -164,14 +164,106 @@ p {
   font-family: 'Inter', sans-serif;
 }
 
+.imgShows {
+  width: 75%;
+  margin-left: 12%;
+}
+
+.imgWorkshops {
+  width: 75%;
+  margin-left: 12%;
+}
+
+.descricao {
+  margin-left: 12%;
+  margin-right: 4%;
+}
+
 @media only screen and (min-width: 480px) {
+  .menuNav {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    height: 85%;
+  }
+
+  .containerLogo {
+    margin-left: 4%;
+    position: relative;
+  }
+
+  .containerApresentacao {
+    margin-top: 4%;
+    margin-right: 9%;
+    position: relative;
+  }
+
+  .containerNav {
+    margin-top: -2%;
+  }
+
+  .menuNav {
+    font-size: 18px;
+  }
+
+  .filtrar {
+    top: 27px;
+    right: 50px;
+    position: relative;
+  }
+
+  .containerFiltrar {
+    left: 70px;
+    bottom: 15px;
+    position: relative;
+  }
+
+  .menuShows {
+    display: flex;
+  }
+
+  .menuWorkshops {
+    display: flex;
+  }
+
+  .seletor {
+    font-size: larger;
+  }
 }
 
 @media only screen and (min-width: 1000px) and (min-width: 1024px) {
+  .containerLogo {
+    margin-left: 10%;
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
+  .logo {
+    height: 98%;
+  }
+
+  .containerLogo {
+    margin-bottom: 10%;
+    margin-left: 25%;
+    position: relative;
+  }
+
+  .containerApresentacao {
+    margin-right: 20%;
+    margin-top: 1.5%;
+    position: relative;
+  }
+
+  .containerNav {
+    margin-top: -140px;
+  }
 }
