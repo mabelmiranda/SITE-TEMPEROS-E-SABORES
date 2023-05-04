@@ -84,6 +84,10 @@ header {
   font-family: 'Inter', sans-serif;
 }
 
+.containerContato {
+  margin-top: 5%;
+}
+
 .nome {
   border-radius: 20px;
   border-color: #EA7B26;

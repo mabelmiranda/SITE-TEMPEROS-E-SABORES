@@ -16,141 +16,161 @@
 
 <body>
 
-    <header>
+    <header class="cabecalho">
 
-        <div>
+        <div class="containerLogo">
             <a href="index.html">
                 <img class="logo" src="imagens/logotipo.png" alt="logotipo do site" />
             </a>
         </div>
 
-        <div>
-            <p>04 a 06 DE MAIO</p>
-            <span>VENHA EXPERIMENTAR O MELHOR DA<p>GASTRONOMIA COMTEMPORÂNEA!</p></span>
+        <div class="containerApresentacao">
+            <p class="data"><strong>04 A 06 DE MAIO</strong></p>
+            <span class="texto"><strong>VENHA EXPERIMENTAR O MELHOR DA<p>GASTRONOMIA COMTEMPORÂNEA!</strong></p></span>
         </div>
 
-    </header>
+        </header>
 
-    <main>
+        <main class="containerCorpo">
 
-        <nav class="menuNav">
-            <span><b><a href="ofestival.html">O Festival</a></b></span>
-            <span><b><a href="menus.html">Menus</a></b></span>
-            <span><b><a href="atracoes.html">Atrações</a></b></span>
-            <span><b><a href="duvidas.html">Dúvidas</a></b></span>
-            <span><b><a href="contato.html">Contato</a></b></span>
-            <br><br>
-        </nav>
+            <nav class="containerNav">
+                <span class="menuNav"><b><a class="link" href="ofestival.html">O Festival</a></b></span><span
+                    class="barraNav">|</span>
+                <span class="menuNav"><b><a class="link" href="menus.html">Menus</a></b></span><span
+                    class="barraNav">|</span>
+                <span class="menuNav"><b><a class="link" href="atracoes.html">Atrações</a></b></span><span
+                    class="barraNav">|</span>
+                <span class="menuNav"><b><a class="link" href="duvidas.html">Dúvidas</a></b></span><span
+                    class="barraNav">|</span>
+                <span class="menuNav"><b><a class="link" href="contato.html">Contato</a></b></span>
+            </nav>
 
-        <section>
+            <section>
 
-            <div class="seletor">
-                <form class="filtro">
-                    <fieldset>
+                <div class="seletor">
+                    <form class="filtro">
+                        <fieldset>
+                            <p class="filtrar">Filtrar por:</p>
+                            <div class="containerFiltrar">
+                                <label class="datas" for="datas">Datas</label>
+                                <select name="datas" id="selecionarDatas">
+                                    <option value="quatro">04/05</option>
+                                    <option value="cinco">05/05</option>
+                                    <option value="seis">06/05</option>
+                                </select>
 
-                        <legend>Filtrar por:</legend>
+                                <label class="pratos" for="pratos">Pratos</label>
+                                <select name="pratos" id="selecionarPratos">
+                                    <option value="entrada">Entrada</option>
+                                    <option value="principal">Prato Principal</option>
+                                    <option value="sobremesa">Sobremesa</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
 
-                        <label for="datas">Datas</label>
-                        <select name="datas" id="selecionarDatas">
-                            <option value="quatro">04/05</option>
-                            <option value="cinco">05/05</option>
-                            <option value="seis">06/05</option>
-                        </select>
+            </section>
 
-                        <label for="pratos">Pratos</label>
-                        <select name="pratos" id="selecionarPratos">
-                            <option value="entrada">Entrada</option>
-                            <option value="principal">Prato Principal</option>
-                            <option value="sobremesa">Sobremesa</option>
-                        </select>
+            <section>
 
-                    </fieldset>
-                </form>
+                <div>
+                    <h1 class="titulo">Restaurantes</h1>
+                </div>
+
+                <div class="menuGrade">
+
+                    <div class="menuGradeUm">
+                        <img class="imgPratos" src="imagens/Dadinhos-de-Tapioca-Mocoto.png"
+                            alt="dadinhos de tapioca mocoto" />
+                        <div class="descricao">
+                            <h4>MOCOTÓ</h4>
+                            <p>Dadinhos de tapioca R$30,00</p>
+                            <p>Baião de dois clássico R$35,00</p>
+                            <p>Bolo de mandioca R$20,00</p>
+                            <p>Arroz doce R$25,00</p>
+                        </div>
+
+                        <img class="imgPratos" src="imagens/Vegetariano.png" alt="vegetariano" />
+                        <div class="descricao">
+                            <h4>CAMÉLIA</h4>
+                            <P>Salgadinhos vegetarianos R$30,00</P>
+                            <p>Palito raízes R$30,00</p>
+                            <p>Salpicão de vegetais R$35,00</p>
+                            <p>Muffin de cenoura R$25,00</p>
+                        </div>
+
+                        <img class="imgPratos" src="imagens/Feijoada-Tradicional.png" alt="feijoada tradicional" />
+                        <div class="descricao">
+                            <h4>RANGUÉ</h4>
+                            <p>Bobó de camarão R$35,00</p>
+                            <p>Galinhada R$30,00</p>
+                            <p>Torta de limão R$20,00</p>
+                        </div>
+
+                        <img class="imgPratos" src="imagens/Bomba-Trufada.png" alt="bomba trufada" />
+                        <div class="descricao">
+                            <h4>LOZANO</h4>
+                            <p>Bomba trufada de chocolate R$25,00</p>
+                            <p>Pastel doce de leite R$25,00</p>
+                            <p>Brownie e caramelo R$25,00</p>
+                        </div>
+                    </div>
+
+                    <div class="menuGradeDois">
+                        <img class="imgPratos" src="imagens/Coxinhas.png" alt="coxinhas" />
+                        <div class="descricao">
+                            <h4>CASA RIOS</h4>
+                            <P>Coxinhas de galinha na brasa R$25,00</P>
+                            <p>Milho na brasa R$25,00</p>
+                            <p>Sanduíche de porco grelhado R$30,00</p>
+                        </div>
+
+                        <img class="imgPratos" src="imagens/Sanduiche-de-Leitao-.png" alt="sanduíche de leitão" />
+                        <div class="descricao">
+                            <h4>LE JAZZ</h4>
+                            <p>Sanduíche de leitão R$25,00</p>
+                            <p>Steak tartare R$35,00</p>
+                            <p>Moules R$45,00</p>
+                            <p>Ostras frescas R$25,00</p>
+                        </div>
+
+                        <img class="imgPratos" src="imagens/Pizza-Margueritta.png" alt="pizza margueritta" />
+                        <div class="descricao">
+                            <h4>MAREMONTI</h4>
+                            <p>Pizza Margueritta R$35,00</p>
+                            <p>Pizza Especial R$40,00</p>
+                            <p>Panna cotta R$25,00</p>
+                        </div>
+
+                        <img class="imgPratos" src="imagens/Bolo-Chocolate.png" alt="bolo de chocolate" />
+                        <div class="descricao">
+                            <h4>CAROLE CREMA</h4>
+                            <p>Cheesecake com calda de frutas vermelhas R$20,00</p>
+                            <p>Bolo de chocolate premium R$30,00</p>
+                            <p>Pão de mel premium R$30,00</p>
+                            <p>Merengue de limão siciliano R$25,00</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <footer class="rodape">
+
+            <div class="selosRodape">
+                <h2 class="tituloRodape">Acesse nossas redes sociais</h2>
+                <img class="iconUm" src="imagens/facebookIcon.png" alt="ícone do facebook" />
+                <img class="iconDois" src="imagens/instagramIcon.png" alt="ícone do instagram" />
+                <hr>
+                <p class="textoRodapeUm">Desenvoldido por Mabel Miranda e Rogério Santos</p>
+                <p class="textoRodapeDois">2023</p>
             </div>
 
-        </section>
-
-        <section>
-
-            <div>
-                <h1 class="titulo">Restaurantes</h1>
-            </div>
-
-            <div class="menuGradeUm">
-                <img src="imagens/Dadinhos-de-Tapioca-Mocoto.png" alt="dadinhos de tapioca mocoto" />
-                <h4>MOCOTÓ</h4>
-                <p>Dadinhos de tapioca R$30,00</p>
-                <p>Baião de dois clássico R$35,00</p>
-                <p>Bolo de mandioca R$20,00</p>
-                <p>Arroz doce R$25,00</p>
-
-                <img src="imagens/Vegetariano.png" alt="vegetariano" />
-                <h4>CAMÉLIA</h4>
-                <P>Cesta de salgadinhos vegetarianos R$30,00</P>
-                <p>Palito raízes R$30,00</p>
-                <p>Salpicão de vegetais R$35,00</p>
-                <p>Muffin de cenoura R$25,00</p>
-
-                <img src="imagens/Feijoada-Tradicional.png" alt="feijoada tradicional" />
-                <h4>RANGUÉ</h4>
-                <p>Bobó de camarão R$35,00</p>
-                <p>Galinhada R$30,00</p>
-                <p>Torta de limão R$20,00</p>
-
-                <img src="imagens/Bomba-Trufada.png" alt="bomba trufada" />
-                <h4>LOZANO</h4>
-                <p>Bomba trufada de chocolate R$25,00</p>
-                <p>Pastel doce de leite R$25,00</p>
-                <p>Brownie e caramelo R$25,00</p>
-            </div>
-
-            <div class="menuGradeDois">
-                <img src="imagens/Coxinhas.png" alt="coxinhas" />
-                <h4>CASA RIOS</h4>
-                <P>Coxinhas de galinha na brasa R$25,00</P>
-                <p>Milho na brasa R$25,00</p>
-                <p>Sanduíche de porco grelhado R$30,00</p>
-
-                <img src="imagens/Sanduiche-de-Leitao-.png" alt="sanduíche de leitão" />
-                <h4>LE JAZZ</h4>
-                <p>Sanduíche de leitão R$25,00</p>
-                <p>Steak tartare R$35,00</p>
-                <p>Moules R$45,00</p>
-                <p>Ostras frescas R$25,00</p>
-
-                <img src="imagens/Pizza-Margueritta.png" alt="pizza margueritta" />
-                <h4>MAREMONTI</h4>
-                <p>Pizza Margueritta R$35,00</p>
-                <p>Pizza Especial R$40,00</p>
-                <p>Panna cotta R$25,00</p>
-
-                <img src="imagens/Bolo-Chocolate.png" alt="bolo de chocolate" />
-                <h4>CAROLE CREMA</h4>
-                <p>Cheesecake com calda de frutas vermelhas R$20,00</p>
-                <p>Bolo de chocolate premium R$30,00</p>
-                <p>Pão de mel premium R$30,00</p>
-                <p>Merengue de limão siciliano R$25,00</p>
-            </div>
-
-        </section>
-
-    </main>
-
-    <footer>
-
-        <div class="selosRodape">
-            <h2 class="tituloRodape">Acesse nossas redes sociais</h2>
-            <img class="iconUM" src="imagens/facebookIcon.png" alt="ícone do facebook" />
-            <img class="iconDois" src="imagens/instagramIcon.png" alt="ícone do instagram" />
-            <hr>
-        </div>
-
-        <div class="textoRodape">
-            <p>Desenvoldido por Mabel Miranda e Rogério Santos</p>
-            <p>2023</p>
-        </div>
-
-    </footer>
+        </footer>
 
 </body>
 
