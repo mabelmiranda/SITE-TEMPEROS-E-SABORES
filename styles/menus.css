@@ -119,7 +119,9 @@ footer {
 }
 
 .titulo {
-  margin-left: 3%;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   font-size: 30px;
   color: #C94B4B;
   font-family: 'Inter', sans-serif;
@@ -164,24 +166,22 @@ p {
   font-family: 'Inter', sans-serif;
 }
 
+article {
+  margin-bottom: 3%;
+}
+
 .imgPratos {
   width: 75%;
   margin-left: 12%;
 }
 
 .descricao {
-  margin-left: 12%;
-  margin-right: 4%;
+  text-align: center;
 }
 
 @media only screen and (min-width: 480px) {
   .menuNav {
     font-size: 18px;
-  }
-
-  .descricao {
-    margin-left: 12%;
-    margin-right: 6%;
   }
 }
 
@@ -215,9 +215,14 @@ p {
   }
 
   .filtrar {
+    font-size: 20px;
     top: 27px;
     right: 50px;
     position: relative;
+  }
+
+  .pratos {
+    font-size: 20px;
   }
 
   .containerFiltrar {
@@ -226,21 +231,21 @@ p {
     position: relative;
   }
 
-  .imgPratos {
-    width: 70%;
+  .seletor {
+    padding-bottom: 1%;
+    font-size: larger;
   }
 
-  .descricao {
-    margin-right: 15%;
+  article {
+    display: inline-block;
   }
 
   .menuGrade {
-    margin-left: 3%;
-    display: flex;
+    text-align: center;
   }
 
-  .seletor {
-    font-size: larger;
+  .imgPratos {
+    margin-left: 0;
   }
 }
 
