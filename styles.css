@@ -158,6 +158,8 @@ header {
 
 .containerDestaque {
     height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
     font-weight: bold;
     color: #ffff;
@@ -281,10 +283,6 @@ footer {
         width: auto;
         height: 300px;
     }
-
-    .caixaTexto {
-        width: 100%;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -318,63 +316,45 @@ footer {
     }
 
     .informDois {
-        font-weight: bold;
-        margin-bottom: 190px;
+        margin-bottom: 170px;
         display: flex;
-        align-items: center;
         justify-content: space-evenly;
     }
 
-    .categUm {
-        width: 210px;
-        height: 220px;
-        left: 120px;
-        position: relative;
+    article {
+        margin-bottom: -180px;
+        display: inline-block;
     }
 
-    .textoMenus {
-        top: 190px;
-        right: 50px;
-        position: relative;
+    .categUm {
+        width: 200px;
+        height: 200px;
+
     }
 
     .categDois {
-        width: 210px;
-        height: 220px;
-        left: 60px;
-        position: relative;
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
     }
 
     .textoApresentacoes {
-        top: 190px;
-        right: 100px;
-        position: relative;
+        margin-left: 20px;
     }
 
     .categTres {
-        width: 210px;
-        height: 220px;
-        position: relative;
+        width: 200px;
+        height: 200px;
     }
 
     .textoWorkshops {
-        top: 210px;
-        right: 170px;
-        position: relative;
+        margin-bottom: 45px;
     }
 
     .data {
         font-size: 30px;
         margin-top: 20px;
         margin-bottom: 3px;
-    }
-
-    .caixaContato {
-        margin-right: 200px;
-    }
-
-    .caixaTexto {
-        width: 100%;
     }
 
     .botao {
@@ -389,6 +369,25 @@ footer {
     .containerLogo {
         margin-left: 10%;
         position: relative;
+    }
+
+    .categUm {
+        width: auto;
+        height: 300px;
+    }
+
+    .categDois {
+        width: auto;
+        height: 300px;
+    }
+
+    .categTres {
+        width: auto;
+        height: 300px;
+    }
+
+    .caixaTexto {
+        width: 60%;
     }
 }
 
@@ -406,42 +405,5 @@ footer {
 
     .containerNav {
         margin-top: 50px;
-    }
-
-    .categUm {
-        width: 300px;
-        height: 300px;
-        position: relative;
-    }
-
-    .textoMenus {
-        top: 200px;
-        position: relative;
-    }
-
-    .categDois {
-        width: 300px;
-        height: 300px;
-        position: relative;
-    }
-
-    .textoApresentacoes {
-        top: 200px;
-        position: relative;
-    }
-
-    .categTres {
-        width: 300px;
-        height: 300px;
-        position: relative;
-    }
-
-    .textoWorkshops {
-        top: 200px;
-        position: relative;
-    }
-
-    .caixaTexto {
-        width: 70%;
     }
 }

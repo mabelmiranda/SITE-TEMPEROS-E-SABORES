@@ -211,6 +211,10 @@ footer {
     margin-left: 10%;
     position: relative;
   }
+
+  .caixaTexto {
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -232,9 +236,5 @@ footer {
 
   .containerNav {
     margin-top: -140px;
-  }
-
-  .caixaTexto {
-    width: 60%;
   }
 }

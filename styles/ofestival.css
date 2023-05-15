@@ -162,6 +162,8 @@ header {
 
 .containerDestaque {
   height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   font-weight: bold;
   color: #ffff;
@@ -172,47 +174,6 @@ header {
   text-align: center;
   font-weight: bold;
   color: #C94B4B;
-}
-
-.tituloContato {
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 25px;
-  color: #C94B4B;
-}
-
-.nome {
-  border-radius: 20px;
-  border-color: #EA7B26;
-  border-width: 3px;
-  border-style: solid;
-}
-
-.email {
-  border-radius: 20px;
-  border-color: #EA7B26;
-  border-width: 3px;
-  border-style: solid;
-}
-
-.caixaTexto {
-  width: 100%;
-  height: 200px;
-  border-radius: 20px;
-  border-color: #EA7B26;
-  border-width: 3px;
-  border-style: solid;
-}
-
-.botao {
-  width: 130px;
-  height: 30px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  color: #ffff;
-  background-color: #C94B4B;
-  border-color: #C94B4B;
-  border-style: none;
 }
 
 footer {
@@ -291,10 +252,6 @@ footer {
     width: auto;
     height: 300px;
   }
-
-  .caixaTexto {
-    width: 100%;
-  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -332,64 +289,36 @@ footer {
   }
 
   .informDois {
-    font-weight: bold;
-    margin-bottom: 190px;
+    margin-bottom: 180px;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
   }
 
-  .categUm {
-    width: 210px;
-    height: 220px;
-    left: 120px;
-    position: relative;
+  article {
+    margin-bottom: -180px;
+    display: inline-block;
   }
 
-  .textoMenus {
-    top: 180px;
-    right: 50px;
-    position: relative;
+  .categUm {
+    width: 200px;
+    height: 200px;
+
   }
 
   .categDois {
-    width: 210px;
-    height: 220px;
-    left: 60px;
-    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
   }
 
   .textoApresentacoes {
-    top: 180px;
-    right: 100px;
-    position: relative;
+    margin-left: 20px;
   }
 
   .categTres {
-    width: 210px;
-    height: 220px;
-    position: relative;
-  }
-
-  .textoWorkshops {
-    top: 200px;
-    right: 170px;
-    position: relative;
-  }
-
-  .caixaContato {
-    margin-right: 200px;
-  }
-
-  .caixaTexto {
-    width: 100%;
-  }
-
-  .botao {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
   }
 }
 
@@ -397,6 +326,21 @@ footer {
   .containerLogo {
     margin-left: 10%;
     position: relative;
+  }
+
+  .categUm {
+    width: auto;
+    height: 300px;
+  }
+
+  .categDois {
+    width: auto;
+    height: 300px;
+  }
+
+  .categTres {
+    width: auto;
+    height: 300px;
   }
 }
 
@@ -419,42 +363,5 @@ footer {
 
   .containerNav {
     margin-top: -140px;
-  }
-
-  .categUm {
-    width: 300px;
-    height: 300px;
-    position: relative;
-  }
-
-  .textoMenus {
-    top: 200px;
-    position: relative;
-  }
-
-  .categDois {
-    width: 300px;
-    height: 300px;
-    position: relative;
-  }
-
-  .textoApresentacoes {
-    top: 200px;
-    position: relative;
-  }
-
-  .categTres {
-    width: 300px;
-    height: 300px;
-    position: relative;
-  }
-
-  .textoWorkshops {
-    top: 200px;
-    position: relative;
-  }
-
-  .caixaTexto {
-    width: 70%;
   }
 }
